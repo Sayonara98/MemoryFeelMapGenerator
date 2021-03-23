@@ -22,7 +22,7 @@ bool canTurnLeft(int x, int y)
 
 bool canTurnRight(int x, int y)
 {
-	if (y + 1 > n || arr[x][y + 1] != 0 || arr[x - 1][y + 1] != 0)
+	if (y + 1 > n-1 || arr[x][y + 1] != 0 || arr[x - 1][y + 1] != 0)
 		return false;
 	return true;
 }
